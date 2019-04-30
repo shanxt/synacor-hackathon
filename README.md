@@ -1,11 +1,6 @@
-# HTTP Response parser
+# ZOMBIE - Zimbra On My Browser Is Excellent 
 
 ## What it does
 
-Listens to HTTP Responses from example.com and changes the body of the response as it comes through. So that the word "Example" on https://example.com becomes "WebExtension Example".
+Shows the certificate chain for a website. Useful for debugging certificate errors.
 
-## What it shows
-
-How to use the response parser on bytes.
-
-Icon is from: https://www.iconfinder.com/icons/763339/draw_edit_editor_pen_pencil_tool_write_icon#size=128
