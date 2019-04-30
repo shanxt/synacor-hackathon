@@ -1,21 +1,26 @@
 {
 
-  "description": "TLS extention",
+  "description": "Admin support for Zimbra",
   "manifest_version": 2,
-  "name": "http-response-filter",
+  "name": "Zimbra On My Browser Is Excellent",
   "version": "1.0",
   "icons": {
-    "48": "pen.svg"
+    "48": "icons/zombie.svg"
   },
 
   "permissions": [
-    "webRequest", "webRequestBlocking", "<all_urls>"
+    "webRequest", "webRequestBlocking", "<all_urls>", "storage"
   ],
 
   "background": {
     "scripts": ["background.js"]
   },
 
+  "browser_action": {
+        "default_icon": "icons/zombie.svg",
+	"default_title": "Zombie",
+	"default_popup": "popup.html"
+  },
   "applications": {
     "gecko": {
       "strict_min_version": "57.0a1"
